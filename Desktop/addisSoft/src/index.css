@@ -1,0 +1,10 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    /* Include padding and border in element's width and height */
+}
+
+.box {
+    letter-spacing: 3px;
+}
