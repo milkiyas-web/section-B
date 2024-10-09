@@ -17,9 +17,16 @@ import ProtectedRoute from './components/middleware';
 import UserPerformance from './components/UserPerformance';
 import UsersPerformance from './pages/UsersPerformance';
 import Timeboxing from './pages/Timeboxing';
+import { KindeProvider } from '@kinde-oss/kinde-auth-react';
 
 function App() {
   return (
+    // <KindeProvider
+    //   clientId={import.meta.env.VITE_CLIENT_ID}
+    //   domain={import.meta.env.VITE_KINDE_DOMAIN}
+    //   redirectUri={import.meta.env.VITE_KINDE_REDIRECT_URL}
+    //   logoutUri={import.meta.env.VITE_KINDE_LOGOUT_URL}
+    // >
     <ClerkProvider publishableKey={import.meta.env.VITE_CLERK_PUBLISHABLE_KEY}>
       <BrowserRouter>
         <Routes>
@@ -46,6 +53,7 @@ function App() {
         </Routes>
       </BrowserRouter>
     </ClerkProvider>
+    // </KindeProvider>
   )
 }
 
