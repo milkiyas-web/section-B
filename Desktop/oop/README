@@ -1,0 +1,12 @@
+Since i haven't submitted on the 17th and 18th because i was sick this commit includes 3 methods of strings including one for today.
+
+The first method is isupper() this is a python string method that can be called and returns a boolean. True if the variable called on contains all uppercase English letters and False if it doesn't.
+
+The next method is upper() this is another string method. This will change all the letters to uppercase.
+
+And lastlty for today I have tried to see string concatenation using + sign this method concatenates two strings and forms or returns another string.
+
+I have provide all the examples in strings.py file.
+
+Thanks,
+Milkiyas
