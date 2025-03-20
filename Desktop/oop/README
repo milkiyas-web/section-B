@@ -3,13 +3,18 @@ Since i haven't submitted on the 17th and 18th because i was sick this commit in
 The first method is isupper() this is a python string method that can be called and returns a boolean. True if the variable called on contains all uppercase English letters and False if it doesn't.
 
 The next method is upper() this is another string method. This will change all the letters to uppercase.
- 
-The third method is called count(). when ever count is called on a string it expects a value/string/letter to be passed in it and it will return how many of that value appears in the string we called it on 
 
+The third method is called count(). when ever count is called on a string it expects a value/string/letter to be passed in it and it will return how many of that value appears in the string we called it on
 
 I have tried to see string concatenation using + sign this method concatenates two strings and forms or returns another string.
 
 I have provide all the examples in strings.py file.
+
+###############################################################################
+
+20/03/2025
+
+Today's string function is
 
 Thanks,
 Milkiyas
