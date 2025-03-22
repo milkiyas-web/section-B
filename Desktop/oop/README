@@ -14,7 +14,15 @@ I have provide all the examples in strings.py file.
 
 20/03/2025
 
-Today's string function is
+Today's string method is what is called slicing. slicing helps us cut a part of the string and returns it based on the indicies we passed to it. for example:
+string[0:2] slices the "string" variable which holds a string starting from the value at the 0 index upto the second index but not including the value at the second index.
+
+As usual i have provided an example in the strings.py file.
+
+################################################################################
+Today's method is strip()
+
+it Removes leading and trailing whitespace from a string. as shown in example strings.py. one very useful function of this strings method is when taking inputs from the user and we dont want any traling spaces, we use .strip().
 
 Thanks,
 Milkiyas
