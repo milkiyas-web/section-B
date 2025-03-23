@@ -1,5 +1,3 @@
-Since i haven't submitted on the 17th and 18th because i was sick this commit includes 3 methods of strings including one for today.
-
 The first method is isupper() this is a python string method that can be called and returns a boolean. True if the variable called on contains all uppercase English letters and False if it doesn't.
 
 The next method is upper() this is another string method. This will change all the letters to uppercase.
@@ -11,8 +9,6 @@ I have tried to see string concatenation using + sign this method concatenates t
 I have provide all the examples in strings.py file.
 
 ###############################################################################
-
-20/03/2025
 
 Today's string method is what is called slicing. slicing helps us cut a part of the string and returns it based on the indicies we passed to it. for example:
 string[0:2] slices the "string" variable which holds a string starting from the value at the 0 index upto the second index but not including the value at the second index.
@@ -38,3 +34,4 @@ The isdigit() method returns a boolean (true or false) checking if the string is
 
 Thanks,
 Milkiyas
+ETS 0937/15
