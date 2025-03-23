@@ -24,5 +24,11 @@ Today's method is strip()
 
 it Removes leading and trailing whitespace from a string. as shown in example strings.py. one very useful function of this strings method is when taking inputs from the user and we dont want any traling spaces, we use .strip().
 
+###############################################################################3
+
+Today's string method is split()
+
+split in pyton changes a given string in to a list. by passing whatever we want in the parenthesis we can split it based on space or any value. for example: string.split() splirts the string based on spaces.this will internally remove any traling white spaces. additional examples can be found in strings.py
+
 Thanks,
 Milkiyas
