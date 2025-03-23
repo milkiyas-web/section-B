@@ -30,5 +30,11 @@ Today's string method is split()
 
 split in pyton changes a given string in to a list. by passing whatever we want in the parenthesis we can split it based on space or any value. for example: string.split() splirts the string based on spaces.this will internally remove any traling white spaces. additional examples can be found in strings.py
 
+swapcase()
+The swapcase() is a string method that returns a string by swaping the case of the letter uppercase to lowercase and lowercase to uppercase. it can be called like this string.swapcase(). example in strings.py
+
+isdigit()
+The isdigit() method returns a boolean (true or false) checking if the string is a digit forexample: string="1" string.isdigit() will return: True. but string="a", string.isdigit() will return False.
+
 Thanks,
 Milkiyas

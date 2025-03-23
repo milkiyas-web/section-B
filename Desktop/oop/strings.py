@@ -14,3 +14,8 @@ print(text.strip())
 
 print(text.split())
 
+swap_case = "SWap Case"
+print(swap_case.swapcase())
+
+count_ = "1"
+print(count_.isdigit())
