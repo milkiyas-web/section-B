@@ -32,6 +32,15 @@ The swapcase() is a string method that returns a string by swaping the case of t
 isdigit()
 The isdigit() method returns a boolean (true or false) checking if the string is a digit forexample: string="1" string.isdigit() will return: True. but string="a", string.isdigit() will return False.
 
+str.startswith()
+The str.startswith() function checks whether a given string begins with a specific substring. It returns True if the match is found at the beginning and False otherwise.
+
+str.endswith()
+Similar to str.startswith(), the str.endswith() function determines whether a string concludes with a particular sequence of characters, returning a boolean result.
+
+str.title()
+The str.title() function converts the first letter of each word in a string to uppercase while making all other letters lowercase. It works well in most cases but might not handle words with apostrophes correctly.
+
 Thanks,
 Milkiyas
 ETS 0937/15

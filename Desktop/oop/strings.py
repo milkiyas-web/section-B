@@ -19,3 +19,16 @@ print(swap_case.swapcase())
 
 count_ = "1"
 print(count_.isdigit())
+
+
+text = "Hello, world!"
+print(text.endswith("world!"))  
+
+
+text = "Javascript is better than python"
+print(text.startswith("Javascript"))  
+
+
+text = "hello section-b"
+print(text.title())  
+
