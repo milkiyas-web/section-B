@@ -29,6 +29,8 @@ text = "Javascript is better than python"
 print(text.startswith("Javascript"))  
 
 
-text = "hello section-b"
-print(text.title())  
+text = "I love apples"
+print(text.replace("apples", "bananas"))  
+
+
 

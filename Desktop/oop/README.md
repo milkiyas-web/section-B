@@ -41,6 +41,9 @@ Similar to str.startswith(), the str.endswith() function determines whether a st
 str.title()
 The str.title() function converts the first letter of each word in a string to uppercase while making all other letters lowercase. It works well in most cases but might not handle words with apostrophes correctly.
 
+str.replace()
+The str.replace() method substitutes occurrences of a specific substring with another substring. This method does not modify the original string but returns a new modified version.
+
 Thanks,
 Milkiyas
 ETS 0937/15
