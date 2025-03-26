@@ -44,6 +44,15 @@ The str.title() function converts the first letter of each word in a string to u
 str.replace()
 The str.replace() method substitutes occurrences of a specific substring with another substring. This method does not modify the original string but returns a new modified version.
 
+f-strings (f"")
+f-strings (formatted string literals) allow you to embed expressions inside string literals using {}. This provides a more readable and concise way to format strings.
+
+len()
+The len() function returns the number of characters in a string (or elements in a list, tuple, etc.).
+
+str.join()
+The str.join() function joins a list of strings using the given string as a separator.
+
 Thanks,
 Milkiyas
 ETS 0937/15

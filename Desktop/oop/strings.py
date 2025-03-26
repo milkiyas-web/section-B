@@ -32,5 +32,24 @@ print(text.startswith("Javascript"))
 text = "I love apples"
 print(text.replace("apples", "bananas"))  
 
+name = "Milkyas"
+age = 22
+message = f"My name is {name} and I am {age} years old."
+print(message)  
+
+num1, num2 = 5, 10
+print(f"The sum of {num1} and {num2} is {num1 + num2}.")
+
+text = "Hello, World!"
+length = len(text)
+print(length)  
+
+words = ["Hello", "World", "Python"]
+sentence = " ".join(words)
+print(sentence)  
+
+
+
+
 
 
