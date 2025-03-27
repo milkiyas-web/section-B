@@ -49,6 +49,16 @@ sentence = " ".join(words)
 print(sentence)  
 
 
+# Find
+print('hello world'.find('world'))
+
+# Isdigit
+print('12345'.isdigit())
+
+# Isalpha
+print('hello'.isalpha())
+
+
 
 
 

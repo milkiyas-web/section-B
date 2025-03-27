@@ -1,3 +1,5 @@
+## Strings Methods
+
 The first method is isupper() this is a python string method that can be called and returns a boolean. True if the variable called on contains all uppercase English letters and False if it doesn't.
 
 The next method is upper() this is another string method. This will change all the letters to uppercase.
@@ -52,6 +54,21 @@ The len() function returns the number of characters in a string (or elements in 
 
 str.join()
 The str.join() function joins a list of strings using the given string as a separator.
+
+### Isalnum
+
+- **Example:** `'hello123'.isalnum()`
+- **Description:** Checks if a string is composed entirely of letters and numbers without any spaces or special characters. This is useful for enforcing constraints on usernames or passwords that require alphanumeric input only.
+
+### Find
+
+- **Example:** `'hello world'.find('world')`
+- **Description:** This method searches for a substring within a given string and returns the lowest index where the substring is found. If the substring is not present, it returns -1. It's useful when you need to check if a certain word or character sequence exists within a larger string.
+
+### Replace
+
+- **Example:** `'hello world'.replace('world', 'Python')`
+- **Description:** Replaces all occurrences of a specified substring with another string. This is useful for text transformations, such as replacing certain words or characters dynamically in a sentence.
 
 Thanks,
 Milkiyas
