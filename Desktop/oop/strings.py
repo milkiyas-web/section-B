@@ -24,10 +24,8 @@ print(count_.isdigit())
 text = "Hello, world!"
 print(text.endswith("world!"))  
 
-
 text = "Javascript is better than python"
 print(text.startswith("Javascript"))  
-
 
 text = "I love apples"
 print(text.replace("apples", "bananas"))  
@@ -48,7 +46,6 @@ words = ["Hello", "World", "Python"]
 sentence = " ".join(words)
 print(sentence)  
 
-
 # Find
 print('hello world'.find('world'))
 
@@ -58,8 +55,11 @@ print('12345'.isdigit())
 # Isalpha
 print('hello'.isalpha())
 
+# Isalnum
+print('hello123'.isalnum())
 
+# Isspace
+print('   '.isspace())
 
-
-
-
+# Lstrip
+print('  hello'.lstrip())

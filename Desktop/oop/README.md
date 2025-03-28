@@ -70,6 +70,16 @@ The str.join() function joins a list of strings using the given string as a sepa
 - **Example:** `'hello world'.replace('world', 'Python')`
 - **Description:** Replaces all occurrences of a specified substring with another string. This is useful for text transformations, such as replacing certain words or characters dynamically in a sentence.
 
+### Rstrip
+
+- **Example:** `'hello '.rstrip()`
+- **Description:** Similar to lstrip(), but it removes trailing whitespace or specified characters from the right side of the string. This is useful when handling text input where unnecessary spaces at the end may cause issues.
+
+### Isspace
+
+- **Example:** `' '.isspace()`
+- **Description:** Returns True if the string contains only whitespace characters (spaces, tabs, newlines). This method is useful for checking if user input is empty or improperly formatted.
+
 Thanks,
 Milkiyas
 ETS 0937/15
