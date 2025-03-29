@@ -63,3 +63,9 @@ print('   '.isspace())
 
 # Lstrip
 print('  hello'.lstrip())
+
+# Replace
+print('hello world'.replace('world', 'Python'))
+
+# Rstrip
+print('hello   '.rstrip())

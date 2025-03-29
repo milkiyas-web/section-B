@@ -65,6 +65,11 @@ The str.join() function joins a list of strings using the given string as a sepa
 - **Example:** `'hello world'.find('world')`
 - **Description:** This method searches for a substring within a given string and returns the lowest index where the substring is found. If the substring is not present, it returns -1. It's useful when you need to check if a certain word or character sequence exists within a larger string.
 
+### Isspace
+
+- **Example:** `' '.isspace()`
+- **Description:** Returns True if the string contains only whitespace characters (spaces, tabs, newlines). This method is useful for checking if user input is empty or improperly formatted.
+
 ### Replace
 
 - **Example:** `'hello world'.replace('world', 'Python')`
@@ -75,11 +80,20 @@ The str.join() function joins a list of strings using the given string as a sepa
 - **Example:** `'hello '.rstrip()`
 - **Description:** Similar to lstrip(), but it removes trailing whitespace or specified characters from the right side of the string. This is useful when handling text input where unnecessary spaces at the end may cause issues.
 
-### Isspace
-
-- **Example:** `' '.isspace()`
-- **Description:** Returns True if the string contains only whitespace characters (spaces, tabs, newlines). This method is useful for checking if user input is empty or improperly formatted.
-
 Thanks,
 Milkiyas
 ETS 0937/15
+
+## Lists Methods
+### Pop
+- **Example:** `my_list.pop()`
+- **Description:** Removes and returns the last element from the list. If an index is provided, it removes the element at that position.
+
+### Sort
+- **Example:** `my_list.sort()`
+- **Description:** Sorts the list in ascending order. This modifies the list in place, so be careful if you need to keep the original order.
+
+### Append
+- **Example:** `my_list.append(4)`
+- **Description:** Adds an element to the end of the list. Useful for dynamically growing lists without worrying about indices.
+
