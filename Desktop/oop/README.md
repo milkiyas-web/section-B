@@ -80,20 +80,40 @@ The str.join() function joins a list of strings using the given string as a sepa
 - **Example:** `'hello '.rstrip()`
 - **Description:** Similar to lstrip(), but it removes trailing whitespace or specified characters from the right side of the string. This is useful when handling text input where unnecessary spaces at the end may cause issues.
 
-Thanks,
-Milkiyas
-ETS 0937/15
-
 ## Lists Methods
+
 ### Pop
+
 - **Example:** `my_list.pop()`
 - **Description:** Removes and returns the last element from the list. If an index is provided, it removes the element at that position.
 
 ### Sort
+
 - **Example:** `my_list.sort()`
 - **Description:** Sorts the list in ascending order. This modifies the list in place, so be careful if you need to keep the original order.
 
 ### Append
+
 - **Example:** `my_list.append(4)`
 - **Description:** Adds an element to the end of the list. Useful for dynamically growing lists without worrying about indices.
 
+### Extend
+
+extend()
+The extend() method adds all elements of an iterable (list, tuple, etc.) to the end of the list.
+
+## Insert
+
+insert()
+
+The insert() method inserts an element at a specified position in the list.
+
+### Index
+
+index()
+
+The index() method returns the index of the first occurrence of a specified value.
+
+Thanks,
+Milkiyas
+ETS 0937/15

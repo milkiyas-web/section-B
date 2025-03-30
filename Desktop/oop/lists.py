@@ -10,3 +10,19 @@ print(my_list.pop())
 # Append
 my_list.append(4)
 print(my_list)
+
+#Extend
+list1 = [1, 2, 3]
+list2 = [4, 5, 6]
+list1.extend(list2)
+print(list1)
+
+#Insert
+
+numbers = [1, 2, 4, 5]
+numbers.insert(2, 3)
+print(numbers)
+
+#Index
+letters = ["a", "b", "c", "a"]
+print(letters.index("a"))
