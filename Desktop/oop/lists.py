@@ -26,3 +26,27 @@ print(numbers)
 #Index
 letters = ["a", "b", "c", "a"]
 print(letters.index("a"))
+
+#Copy
+
+original_list = [1, 2, 3, 4]
+copied_list = original_list.copy()
+
+print(copied_list) 
+
+#clear()
+
+my_list = [1, 2, 3, 4]
+my_list.clear()
+
+print(my_list)
+
+## Count
+my_list = [1, 2, 2, 3, 4, 2]
+count_2 = my_list.count(2)
+print(count_2)
+
+
+
+
+

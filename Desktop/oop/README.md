@@ -114,6 +114,15 @@ index()
 
 The index() method returns the index of the first occurrence of a specified value.
 
+copy()
+The copy() method creates a shallow copy of a list, meaning it duplicates the original list without modifying it.
+
+clear()
+The clear() method removes all elements from a list, making it empty.
+
+count()
+Counts how many times a specific value appears in the list.
+
 Thanks,
 Milkiyas
 ETS 0937/15
