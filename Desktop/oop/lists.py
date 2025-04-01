@@ -46,7 +46,21 @@ my_list = [1, 2, 2, 3, 4, 2]
 count_2 = my_list.count(2)
 print(count_2)
 
+##Reverse
 
+my_list = [1, 2, 3, 4]
+my_list.reverse()
+print(my_list) 
+
+## Remove 
+my_list = [1, 2, 3, 2, 4]
+my_list.remove(2)  
+print(my_list)  
+
+
+#max
+my_list = [3, 7, 2, 9, 5]
+print(max(my_list)) 
 
 
 

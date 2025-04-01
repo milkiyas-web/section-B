@@ -123,6 +123,21 @@ The clear() method removes all elements from a list, making it empty.
 count()
 Counts how many times a specific value appears in the list.
 
+### Reverse
+
+reverse()
+Reverses the order of elements in the list.
+
+## Remove
+
+remove()
+Removes the first occurrence of a value in the list.
+
+## max
+
+max()
+Returns the largest element in a list.
+
 Thanks,
 Milkiyas
 ETS 0937/15
