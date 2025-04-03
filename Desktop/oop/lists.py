@@ -63,4 +63,21 @@ my_list = [3, 7, 2, 9, 5]
 print(max(my_list)) 
 
 
+## Reversed
+my_list = [1, 2, 3, 4]
+rev_list = list(reversed(my_list))
+print(rev_list) 
+
+## List
+
+my_string = "hello"
+char_list = list(my_string)
+print(char_list) 
+
+## del
+
+my_list = [10, 20, 30, 40]
+del my_list[1] 
+print(my_list)  
+
 

@@ -138,6 +138,18 @@ Removes the first occurrence of a value in the list.
 max()
 Returns the largest element in a list.
 
+## Reversed
+
+Returns a reversed iterator (does not modify the list).
+
+## List
+
+Converts other data types (tuple, string, set, etc.) into a list.
+
+## Del
+
+Removes an item at a specific index using del.
+
 Thanks,
 Milkiyas
 ETS 0937/15
