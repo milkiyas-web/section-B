@@ -79,5 +79,24 @@ print(char_list)
 my_list = [10, 20, 30, 40]
 del my_list[1] 
 print(my_list)  
+## zip
+list1 = ['a', 'b', 'c']
+list2 = [1, 2, 3]
+
+zipped = list(zip(list1, list2))
+print(zipped)  
+## all
+my_list = [1, 2, 3, 4]
+print(all(my_list))  
+
+my_list2 = [1, 0, 3]
+print(all(my_list2))
+## any()
+my_list = [0, 0, 1, 0]
+print(any(my_list))  
+ 
+
+
+
 
 

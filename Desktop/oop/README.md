@@ -150,6 +150,19 @@ Converts other data types (tuple, string, set, etc.) into a list.
 
 Removes an item at a specific index using del.
 
+## zip
+
+Combines multiple lists element-wise.
+
+## all
+
+all()
+Returns a bollean(True) only if all elements in the list are True
+
+## any
+
+This is opposite to all() which returns True if at least one element in the list is True.
+
 Thanks,
 Milkiyas
 ETS 0937/15
