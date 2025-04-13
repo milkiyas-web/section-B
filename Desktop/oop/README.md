@@ -163,6 +163,20 @@ Returns a bollean(True) only if all elements in the list are True
 
 This is opposite to all() which returns True if at least one element in the list is True.
 
+## DICTIONARY
+
+## get
+
+Returns the value for a key if it exists, otherwise returns a default value.
+
+## keys
+
+Returns a view of all the keys in the dictionary.
+
+## pop
+
+Removes a key and returns its value
+
 Thanks,
 Milkiyas
 ETS 0937/15
