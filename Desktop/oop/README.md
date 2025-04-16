@@ -177,6 +177,18 @@ Returns a view of all the keys in the dictionary.
 
 Removes a key and returns its value
 
+## clear()
+
+Removes all items from the dictionary.
+
+## setdefault()
+
+Returns the value of a key; if key is not present, inserts it with a default value.
+
+## popitem()
+
+Removes and returns the last inserted key-value pair.
+
 Thanks,
 Milkiyas
 ETS 0937/15
