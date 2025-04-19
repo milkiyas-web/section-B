@@ -189,6 +189,18 @@ Returns the value of a key; if key is not present, inserts it with a default val
 
 Removes and returns the last inserted key-value pair.
 
+## update()
+
+Updates the dictionary with key-value pairs from another dictionary or iterable.
+
+## items()
+
+Returns a view of all key-value pairs as tuples.
+
+## values()
+
+Returns a view of all the values in the dictionary.
+
 Thanks,
 Milkiyas
 ETS 0937/15

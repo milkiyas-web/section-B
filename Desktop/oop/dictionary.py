@@ -23,3 +23,16 @@ person = {"name": "Alice", "age": 25}
 person.clear()
 print(person) 
 
+person = {"name": "Alice"}
+person.update({"age": 25})
+print(person)  
+
+
+person = {"name": "Alice", "age": 25}
+print(person.items())  
+
+person = {"name": "Ali", "age": 105}
+print(person.values())  
+
+
+
