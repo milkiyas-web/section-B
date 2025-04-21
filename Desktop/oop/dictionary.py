@@ -34,5 +34,12 @@ print(person.items())
 person = {"name": "Ali", "age": 105}
 print(person.values())  
 
+keys = ['a', 'b', 'c']
+new_dict = dict.fromkeys(keys, 0)
+print(new_dict)  
 
+original = {"x": 1, "y": 2}
+copied = original.copy()
+print(copied)  
 
+"name" in {"name": "Alice"}  

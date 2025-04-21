@@ -201,6 +201,18 @@ Returns a view of all key-value pairs as tuples.
 
 Returns a view of all the values in the dictionary.
 
+## fromkeys()
+
+Creates a new dictionary from a sequence of keys, all with the same value.
+
+## copy()
+
+Returns a shallow copy of the dictionary.
+
+## in (operation not method)
+
+in → check if a key exists:
+
 Thanks,
 Milkiyas
 ETS 0937/15
