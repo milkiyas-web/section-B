@@ -213,6 +213,14 @@ Returns a shallow copy of the dictionary.
 
 in → check if a key exists:
 
+## count()
+
+Counts occurrences of an item.
+
+## index()
+
+Returns the index of first occurrence.
+
 Thanks,
 Milkiyas
 ETS 0937/15
