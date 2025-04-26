@@ -221,6 +221,18 @@ Counts occurrences of an item.
 
 Returns the index of first occurrence.
 
+## discard()
+
+Removes an element if present.
+
+## remove()
+
+Removes an element; error if not present.
+
+## add()
+
+Adds an element.
+
 Thanks,
 Milkiyas
 ETS 0937/15
