@@ -233,6 +233,18 @@ Removes an element; error if not present.
 
 Adds an element.
 
+## copy()
+
+Returns a shallow copy.
+
+## clear()
+
+Clears the set.
+
+## pop()
+
+Removes a random element.
+
 Thanks,
 Milkiyas
 ETS 0937/15
