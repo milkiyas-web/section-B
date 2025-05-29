@@ -245,6 +245,18 @@ Clears the set.
 
 Removes a random element.
 
+## discard()
+
+Remove the specified item
+
+## differenceupdate()
+
+Removes the items in this set that are also included in another, specified set
+
+## difference()
+
+Returns a set containing the difference between two or more sets
+
 Thanks,
 Milkiyas
 ETS 0937/15
